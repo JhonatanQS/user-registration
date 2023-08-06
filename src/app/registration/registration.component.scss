@@ -1,0 +1,41 @@
+:host {
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: ghostwhite;
+    }
+
+    .signUp-card {
+        height: auto;
+        border-radius: 1rem;
+    }
+
+    .mat-card {
+
+        &-header {
+            padding-top: 1rem;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        &-content {
+            form {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                button {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .mat-form-field {
+        width: 25rem;
+    }
+
+}

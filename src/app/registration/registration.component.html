@@ -5,7 +5,7 @@
             <mat-card-subtitle>This will take just a few minutes!</mat-card-subtitle>
         </mat-card-header>
         <mat-card-content>
-            <form [formGroup]="userRegistration">
+            <form [formGroup]="userRegistration" (ngSubmit)="register()">
                 <mat-form-field appearance="outline">
                     <mat-label>Name</mat-label>
                     <input matInput formControlName="name" required>
